@@ -19,7 +19,7 @@ body{
 }
 
 .panel{
-    background-size: cover 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
@@ -45,15 +45,17 @@ body{
     flex: 5;
 }
 
-.panel.active.h3{
+.panel.active h3{
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
  @media(max-width: 480px){ /*for small screens don't show last two cards */
     .container{
         width: 100vw;
     }
-    .panel:nth-of-type(4),.panel:nth-of-type(5){
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5){
         display:none;
     }
     
