@@ -7,7 +7,7 @@ panels.forEach((panel)=> {
         panel.classList.add('active')
     })
 })
-
+//remove active state from panel when another panel is clicked
 function removeActiveClasses(){
     panels.forEach(panel =>{
         panel.classList.remove('active')

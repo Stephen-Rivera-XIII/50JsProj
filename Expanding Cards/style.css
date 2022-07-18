@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
 }
-body{
+ body{
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center;
@@ -29,6 +29,7 @@ body{
     flex: 0.5;
     margin:10px;
     position: relative;
+    -webkit-transition: all 700ms ease-in;
     transition: flex 0.7s ease-in;
 }
 
@@ -59,4 +60,4 @@ body{
         display:none;
     }
     
-}
+} 
