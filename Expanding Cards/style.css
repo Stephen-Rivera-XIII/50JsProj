@@ -12,6 +12,23 @@
     overflow: hidden;
     margin: 0;
 }
+.circle button {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 15px;
+    background: transparent;
+    border: 0;
+    font-size: 26px;
+    color: lavenderblush;
+    cursor: pointer;
+}
+.circle button:hover{
+    color: lavender;
+}
+.circle button:active{
+    transform: scale(.75);
+}
 
 .container {
     display: flex;
